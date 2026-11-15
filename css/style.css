@@ -1,0 +1,102 @@
+/* تنسيق الصفحة */
+body {
+    background-color: #f2f6fa;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    color: #333;
+}
+
+/* العنوان الرئيسي */
+h1 {
+    color: #23476b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* العناوين الفرعية */
+h3 {
+    color: #315b7d;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الكروت */
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* خانات الإدخال */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+/* عند الضغط على الخانة */
+.form-control:focus {
+    border-color: #4a90c2;
+    box-shadow: 0 0 4px #b5d5ed;
+}
+
+/* الأزرار */
+.btn {
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+/* زر إضافة طالب */
+.btn-primary {
+    background-color: #347db5;
+    border: none;
+}
+
+/* زر لجنة الرأفة */
+.btn-success {
+    background-color: #39866b;
+    border: none;
+}
+
+/* قائمة الطلاب */
+#studentsBox {
+    background-color: #f8fafc;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* صندوق الأخطاء */
+    #errorBox {
+    color: #dc3545;
+    background-color: #ffe6e6;
+    border: 1px solid #dc3545;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: none;
+}
+
+
+/* التقرير النهائي */
+#reportBox {
+    background-color: #f0f7f2;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* تنسيق الموبايل */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    .card {
+        padding: 12px;
+    }
+
+    .btn {
+        margin-bottom: 8px;
+    }
+}
